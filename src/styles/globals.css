@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette — flat colors only, no gradients anywhere */
+  --color-bg: oklch(97.5% 0.012 85);
+  --color-surface: oklch(94% 0.02 82);
+  --color-divider: oklch(82% 0.012 78);
+  --color-meta: oklch(62% 0.016 78);
+  --color-ink: oklch(25% 0.035 215);
+  --color-ink-strong: oklch(16% 0.015 215);
+  --color-accent: oklch(76% 0.155 65);
+  --color-accent-ink: oklch(22% 0.035 215);
+  --color-sale: oklch(54% 0.14 25);
+  --color-success: oklch(58% 0.1 150);
+  --color-focus: oklch(76% 0.155 65);
+
+  /* Radii — one scale, consistent */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  /* Typography */
+  --font-display: var(--next-font-display), Georgia, "Times New Roman", serif;
+  --font-body: var(--next-font-body), system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Motion — refined, purposeful */
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-quint: cubic-bezier(0.83, 0, 0.17, 1);
+  --dur-fast: 150ms;
+  --dur-base: 250ms;
+  --dur-mid: 400ms;
+  --dur-slow: 600ms;
+
+  /* Container */
+  --breakpoint-3xl: 110rem;
+
+  /* Animations (entry) */
+  --animate-fade-up: fade-up 600ms var(--ease-out-quint) both;
+  --animate-fade-in: fade-in 400ms var(--ease-out-quint) both;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translate3d(0, 12px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-in-right {
+  from { transform: translate3d(100%, 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes slide-out-right {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(100%, 0, 0); }
+}
+
+@keyframes slide-in-left {
+  from { transform: translate3d(-100%, 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes slide-out-left {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-100%, 0, 0); }
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    color-scheme: light;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-feature-settings: "ss01", "cv01";
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    color: var(--color-ink-strong);
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    font-weight: 450;
+    font-variation-settings: "SOFT" 40, "WONK" 0;
+  }
+
+  h1 { font-size: clamp(2.5rem, 5vw + 1rem, 4.75rem); }
+  h2 { font-size: clamp(1.875rem, 2.5vw + 1rem, 3.25rem); }
+  h3 { font-size: clamp(1.375rem, 1vw + 1rem, 2rem); }
+  h4 { font-size: clamp(1.125rem, 0.5vw + 1rem, 1.375rem); }
+
+  p { color: var(--color-ink); }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--color-divider);
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-accent-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .container-editorial {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: clamp(1.25rem, 4vw, 3rem);
+  }
+
+  .container-wide {
+    width: 100%;
+    max-width: 110rem;
+    margin-inline: auto;
+    padding-inline: clamp(1.25rem, 4vw, 3rem);
+  }
+
+  .skip-link {
+    position: absolute;
+    inset-inline-start: 1rem;
+    top: 1rem;
+    transform: translateY(-200%);
+    z-index: 999;
+    padding: 0.5rem 1rem;
+    background: var(--color-ink-strong);
+    color: var(--color-bg);
+    border-radius: var(--radius-sm);
+    transition: transform var(--dur-base) var(--ease-out-quint);
+  }
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+}
