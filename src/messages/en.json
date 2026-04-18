@@ -1,0 +1,397 @@
+{
+  "brand": {
+    "name": "RadEl",
+    "tagline": "Radiance Redefined, Elegance Delivered."
+  },
+  "nav": {
+    "shop": "Shop",
+    "collections": "Collections",
+    "about": "About",
+    "blog": "Journal",
+    "contact": "Contact",
+    "categories": {
+      "earrings": "Earrings",
+      "necklaces": "Necklaces",
+      "rings": "Rings",
+      "bracelets": "Bracelets",
+      "anklets": "Anklets",
+      "pendants": "Pendants",
+      "viewAll": "View all jewelry"
+    },
+    "search": "Search",
+    "searchPlaceholder": "Search rings, earrings, pearls…",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "account": "Account",
+    "signIn": "Sign in",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "announcement": {
+    "copy": "Complimentary shipping on orders over $250",
+    "dismiss": "Dismiss announcement"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "New — Spring 2026",
+      "title": "Quiet pieces, carried every day.",
+      "body": "Fine jewelry crafted in small runs. Recycled 18k gold, conflict-free stones, and a lifetime of wear.",
+      "primaryCta": "Shop the collection",
+      "secondaryCta": "Read our story"
+    },
+    "features": {
+      "shipping": { "title": "Complimentary shipping", "body": "On every order over $250, worldwide." },
+      "payment": { "title": "Secure checkout", "body": "Every transaction is encrypted and never stored." },
+      "care": { "title": "Expert care", "body": "Free resizing and lifetime cleaning at our Kigali atelier." }
+    },
+    "categories": {
+      "eyebrow": "Shop by category",
+      "title": "Six forms. One hand.",
+      "body": "Every piece begins on the same bench in Kigali."
+    },
+    "bestsellers": {
+      "eyebrow": "Bestsellers",
+      "title": "Worn by everyone who owns one.",
+      "tabs": { "all": "All", "earrings": "Earrings", "rings": "Rings", "necklaces": "Necklaces", "bracelets": "Bracelets", "anklets": "Anklets", "pendants": "Pendants" }
+    },
+    "flashSale": {
+      "eyebrow": "Atelier edits",
+      "title": "Limited studio pieces."
+    },
+    "arrivals": {
+      "eyebrow": "New arrivals",
+      "title": "The Spring ledger."
+    },
+    "collections": {
+      "eyebrow": "The quiet edit",
+      "title": "Pieces that live in the rotation."
+    },
+    "testimonials": {
+      "eyebrow": "From the wearers",
+      "title": "Worn in. Written back."
+    },
+    "blog": {
+      "eyebrow": "The Journal",
+      "title": "Care, craft, and a little opinion.",
+      "viewAll": "Read the Journal"
+    },
+    "instagram": {
+      "eyebrow": "Follow along",
+      "title": "@nshizirungu.w",
+      "body": "Studio, stone, and occasional sunlight."
+    },
+    "newsletter": {
+      "eyebrow": "Letters",
+      "title": "Twice a month, never more.",
+      "body": "New work, restocks, and the occasional essay on care.",
+      "placeholder": "your@email.com",
+      "submit": "Subscribe",
+      "success": "Welcome. Your first letter arrives shortly.",
+      "emailInvalid": "Please enter a valid email."
+    }
+  },
+  "shop": {
+    "title": "Shop",
+    "resultCount": "{count, plural, =0 {No pieces} one {1 piece} other {# pieces}}",
+    "filters": {
+      "title": "Filter",
+      "category": "Category",
+      "material": "Material",
+      "gemstone": "Stone",
+      "price": "Price",
+      "rating": "Rating",
+      "inStock": "In stock only",
+      "clearAll": "Clear all",
+      "apply": "Apply filters",
+      "close": "Close filters"
+    },
+    "sort": {
+      "label": "Sort by",
+      "featured": "Featured",
+      "newest": "Newest",
+      "priceAsc": "Price — low to high",
+      "priceDesc": "Price — high to low",
+      "rating": "Best reviewed",
+      "bestseller": "Bestsellers"
+    },
+    "empty": {
+      "title": "Nothing matches — yet.",
+      "body": "Adjust your filters or let us suggest a few pieces.",
+      "reset": "Clear filters"
+    },
+    "view": { "grid": "Grid view", "list": "List view" }
+  },
+  "product": {
+    "addToCart": "Add to bag",
+    "addToWishlist": "Save to wishlist",
+    "removeFromWishlist": "Remove from wishlist",
+    "quantity": "Quantity",
+    "size": "Size",
+    "material": "Material",
+    "stone": "Stone",
+    "sku": "SKU",
+    "inStock": "In stock — ships in 2 business days",
+    "lowStock": "Low stock — only {count} left",
+    "madeToOrder": "Made to order — 3 weeks",
+    "outOfStock": "Currently unavailable",
+    "sale": "Sale",
+    "new": "New",
+    "bestseller": "Bestseller",
+    "limited": "Limited",
+    "handcrafted": "Handcrafted",
+    "tabs": {
+      "description": "Description",
+      "materialsAndCare": "Materials & Care",
+      "shippingAndReturns": "Shipping & Returns"
+    },
+    "related": "Pieces that carry well together",
+    "recentlyViewed": "Recently viewed",
+    "rating": "{rating} out of 5 ({count} reviews)",
+    "breadcrumb": { "home": "Home", "shop": "Shop" },
+    "added": "Added to your bag",
+    "undo": "Undo",
+    "viewCart": "View bag"
+  },
+  "cart": {
+    "title": "Your bag",
+    "itemCount": "{count, plural, =0 {Empty} one {1 piece} other {# pieces}}",
+    "empty": {
+      "title": "Your bag is empty.",
+      "body": "Start with a single piece, and let it live in the rotation.",
+      "cta": "Browse jewelry"
+    },
+    "remove": "Remove",
+    "moveToWishlist": "Save for later",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "shippingFree": "Complimentary",
+    "shippingEstimate": "Estimated at checkout",
+    "tax": "Taxes (est.)",
+    "total": "Total",
+    "promo": {
+      "label": "Promo code",
+      "placeholder": "Enter code",
+      "apply": "Apply",
+      "applied": "Code applied — {percent}% off",
+      "invalid": "Code not recognized."
+    },
+    "checkout": "Continue to checkout",
+    "continue": "Continue shopping",
+    "viewFull": "View full bag",
+    "drawer": {
+      "title": "Your bag ({count})",
+      "close": "Close bag"
+    }
+  },
+  "checkout": {
+    "title": "Checkout",
+    "demoBanner": "This is a demo storefront — no real payment is processed.",
+    "steps": { "address": "Address", "shipping": "Shipping", "payment": "Payment", "review": "Review" },
+    "address": {
+      "title": "Where is it going?",
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "line1": "Address line 1",
+      "line2": "Address line 2 (optional)",
+      "city": "City",
+      "region": "Region / State",
+      "postalCode": "Postal code",
+      "continue": "Continue to shipping"
+    },
+    "shipping": {
+      "title": "How should it arrive?",
+      "options": {
+        "standard": { "label": "Standard delivery", "eta": "5–7 business days", "price": "Complimentary" },
+        "express": { "label": "Express delivery", "eta": "2–3 business days", "price": "$25" },
+        "signature": { "label": "Signature delivery", "eta": "1–2 business days, signed for", "price": "$45" }
+      },
+      "continue": "Continue to payment"
+    },
+    "payment": {
+      "title": "Payment details",
+      "cardNumber": "Card number",
+      "expiry": "Expiry (MM/YY)",
+      "cvc": "CVC",
+      "nameOnCard": "Name on card",
+      "continue": "Review your order"
+    },
+    "review": {
+      "title": "Review your order",
+      "editAddress": "Edit address",
+      "editShipping": "Edit shipping",
+      "editPayment": "Edit payment",
+      "place": "Place order"
+    },
+    "success": {
+      "title": "Thank you — your order is placed.",
+      "body": "We've sent a confirmation to {email}. Your order number is {orderNumber}.",
+      "continue": "Continue shopping",
+      "account": "Create an account to track this order"
+    }
+  },
+  "wishlist": {
+    "title": "Wishlist",
+    "empty": { "title": "No pieces saved yet.", "body": "Tap the heart on anything you'd like to return to.", "cta": "Browse jewelry" },
+    "moveToCart": "Move to bag",
+    "remove": "Remove"
+  },
+  "account": {
+    "title": "Your account",
+    "greeting": "Welcome back, {firstName}.",
+    "sidebar": { "profile": "Profile", "orders": "Orders", "addresses": "Addresses", "wishlist": "Wishlist", "settings": "Settings", "signOut": "Sign out" },
+    "profile": { "title": "Profile", "firstName": "First name", "lastName": "Last name", "email": "Email", "phone": "Phone", "save": "Save changes", "saved": "Saved" },
+    "orders": { "title": "Orders", "empty": "No orders yet.", "viewOrder": "View order", "orderNumber": "Order {number}", "placed": "Placed {date}", "total": "Total {amount}" },
+    "addresses": { "title": "Addresses", "add": "Add address", "default": "Default", "makeDefault": "Make default", "edit": "Edit", "delete": "Delete" },
+    "settings": { "title": "Settings", "currency": "Currency", "language": "Language", "newsletter": "Newsletter subscription", "delete": "Delete account", "confirmDelete": "Are you sure? This clears your demo data." }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome back.",
+      "body": "Sign in to see orders, addresses, and wishlist.",
+      "email": "Email",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "orContinue": "or continue with",
+      "google": "Google",
+      "apple": "Apple",
+      "comingSoon": "Social sign-in coming soon",
+      "noAccount": "Don't have an account?",
+      "signUp": "Create one"
+    },
+    "signUp": {
+      "title": "Create your account.",
+      "body": "Save wishlists, track orders, and carry your preferences across devices.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "At least 8 characters, 1 number, 1 uppercase letter.",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "forgot": {
+      "title": "Reset your password.",
+      "body": "Enter the email on your account. We'll send instructions.",
+      "email": "Email",
+      "submit": "Send reset link",
+      "success": "If an account exists, we've sent instructions.",
+      "back": "Back to sign in"
+    },
+    "demoNotice": "Demo storefront — authentication is simulated. No credentials are stored or transmitted."
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "title": "A small bench, a long conversation.",
+    "body": "RadEl began at a bench in Kigali in 2022. It was one person, one torch, and a conviction that fine jewelry should be quiet enough to live in.",
+    "founderTitle": "Founder — Wilson Nshizirungu",
+    "video": "Watch the atelier",
+    "values": {
+      "eyebrow": "How we work",
+      "items": {
+        "materials": { "title": "Recycled metals", "body": "Every piece is cast in recycled 18k and 14k gold, traced to a certified refinery in Antwerp." },
+        "stones": { "title": "Traceable stones", "body": "Conflict-free and lab-grown options, sourced from partners we've worked with since day one." },
+        "craft": { "title": "Small-run craft", "body": "No run exceeds forty pieces. Most are made to order, by the same two hands." },
+        "care": { "title": "Lifetime care", "body": "Complimentary resizing, cleaning, and tightening at our Kigali atelier — forever." }
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Talk to us",
+    "title": "Questions, commissions, or a conversation.",
+    "body": "We answer every message in one business day.",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "subject": "Subject",
+      "subjects": { "general": "General inquiry", "order": "Order support", "commission": "Custom commission", "press": "Press & partnerships" },
+      "message": "Your message",
+      "submit": "Send message",
+      "success": "Message received — we'll write back within one business day."
+    },
+    "info": {
+      "title": "Atelier",
+      "address": "KG 9 Avenue, Kigali, Rwanda",
+      "hours": "Mon–Fri, 10:00 – 18:00 CAT",
+      "phone": "+250 791 847 408",
+      "email": "hello@rad-el.com",
+      "instagram": "@nshizirungu.w"
+    }
+  },
+  "blog": {
+    "title": "The Journal",
+    "body": "Letters on care, craft, and the quiet decisions that make fine jewelry worth wearing.",
+    "featured": "Featured",
+    "allCategories": "All",
+    "readingTime": "{minutes} min read",
+    "readMore": "Read on",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied",
+    "related": "More from the Journal"
+  },
+  "faqs": {
+    "eyebrow": "Frequently asked",
+    "title": "Everything you'd want to know.",
+    "body": "If your question isn't here, write to us — we answer every message in one business day.",
+    "categories": { "orders": "Orders", "shipping": "Shipping", "returns": "Returns", "materials": "Materials", "sizing": "Sizing", "gifts": "Gifts" }
+  },
+  "track": {
+    "title": "Track your order",
+    "body": "Enter your order number and the email you used at checkout.",
+    "orderNumber": "Order number",
+    "email": "Email",
+    "submit": "Track order",
+    "notFound": "We couldn't find that order. Double-check the number and email."
+  },
+  "legal": {
+    "disclaimer": "This template copy is illustrative and has not been reviewed by counsel.",
+    "privacy": { "title": "Privacy" },
+    "terms": { "title": "Terms" },
+    "shipping": { "title": "Shipping" },
+    "returns": { "title": "Returns" }
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search rings, pearls, pendants…",
+    "recent": "Recent searches",
+    "popular": "Popular",
+    "empty": "Nothing matches \"{query}\". Try a broader word.",
+    "resultCount": "{count, plural, =0 {No results} one {1 result} other {# results}}",
+    "viewAll": "View all results →"
+  },
+  "footer": {
+    "tagline": "Fine jewelry, made in small runs, in Kigali.",
+    "shop": "Shop",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "newsletter": { "title": "Letters", "body": "Twice a month. Never more.", "placeholder": "your@email.com", "submit": "Subscribe" },
+    "copyright": "© {year} RadEl. Made with care in Kigali.",
+    "currency": "Currency",
+    "language": "Language"
+  },
+  "toast": {
+    "addedToCart": "Added to your bag",
+    "addedToWishlist": "Saved to wishlist",
+    "removedFromWishlist": "Removed from wishlist",
+    "linkCopied": "Link copied",
+    "subscribed": "Subscribed — thank you.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "errors": {
+    "notFound": { "title": "A missing piece.", "body": "The page you're after doesn't exist — or we moved it. Let's find the way back.", "home": "Go home", "shop": "Browse jewelry", "contact": "Contact us" },
+    "generic": { "title": "Something broke.", "body": "An unexpected error occurred. Please try again.", "retry": "Try again" }
+  },
+  "common": {
+    "close": "Close",
+    "open": "Open",
+    "loading": "Loading…",
+    "required": "Required",
+    "learnMore": "Learn more"
+  }
+}

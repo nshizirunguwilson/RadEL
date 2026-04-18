@@ -1,0 +1,165 @@
+{
+  "brand": {
+    "name": "RadEl",
+    "tagline": "L'éclat redéfini, l'élégance livrée."
+  },
+  "nav": {
+    "shop": "Boutique",
+    "collections": "Collections",
+    "about": "À propos",
+    "blog": "Journal",
+    "contact": "Contact",
+    "categories": {
+      "earrings": "Boucles",
+      "necklaces": "Colliers",
+      "rings": "Bagues",
+      "bracelets": "Bracelets",
+      "anklets": "Bracelets de cheville",
+      "pendants": "Pendentifs",
+      "viewAll": "Tout voir"
+    },
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher bagues, boucles, perles…",
+    "wishlist": "Favoris",
+    "cart": "Panier",
+    "account": "Compte",
+    "signIn": "Connexion",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "announcement": {
+    "copy": "Livraison offerte pour toute commande de 250 $ et plus",
+    "dismiss": "Fermer l'annonce"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Nouveau — Printemps 2026",
+      "title": "Des pièces discrètes, portées chaque jour.",
+      "body": "Bijoux fins confectionnés en petites séries. Or 18 carats recyclé, pierres traçables, conçus pour durer.",
+      "primaryCta": "Voir la collection",
+      "secondaryCta": "Notre histoire"
+    },
+    "features": {
+      "shipping": { "title": "Livraison offerte", "body": "Pour toute commande supérieure à 250 $, partout dans le monde." },
+      "payment": { "title": "Paiement sécurisé", "body": "Chaque transaction est chiffrée et jamais conservée." },
+      "care": { "title": "Soin à vie", "body": "Redimensionnement et nettoyage gratuits à notre atelier de Kigali." }
+    },
+    "categories": { "eyebrow": "Par catégorie", "title": "Six formes. Une seule main.", "body": "Chaque pièce naît sur le même établi, à Kigali." },
+    "bestsellers": { "eyebrow": "Nos préférés", "title": "Portés par tous ceux qui les possèdent.", "tabs": { "all": "Tout", "earrings": "Boucles", "rings": "Bagues", "necklaces": "Colliers", "bracelets": "Bracelets", "anklets": "Chevilles", "pendants": "Pendentifs" } },
+    "flashSale": { "eyebrow": "Éditions atelier", "title": "Pièces limitées du studio." },
+    "arrivals": { "eyebrow": "Nouveautés", "title": "Le carnet du printemps." },
+    "collections": { "eyebrow": "L'édition discrète", "title": "Des pièces qui trouvent leur place." },
+    "testimonials": { "eyebrow": "Paroles de clientes", "title": "Portés. Racontés." },
+    "blog": { "eyebrow": "Le Journal", "title": "Soin, savoir-faire, un peu d'opinion.", "viewAll": "Lire le Journal" },
+    "instagram": { "eyebrow": "Suivez-nous", "title": "@nshizirungu.w", "body": "Atelier, pierres et lumière occasionnelle." },
+    "newsletter": { "eyebrow": "Lettres", "title": "Deux fois par mois, jamais plus.", "body": "Nouvelles pièces, réassorts et quelques essais sur le soin.", "placeholder": "vous@email.com", "submit": "S'abonner", "success": "Bienvenue. Votre première lettre arrive bientôt.", "emailInvalid": "Veuillez entrer un email valide." }
+  },
+  "shop": {
+    "title": "Boutique",
+    "resultCount": "{count, plural, =0 {Aucune pièce} one {1 pièce} other {# pièces}}",
+    "filters": { "title": "Filtrer", "category": "Catégorie", "material": "Matériau", "gemstone": "Pierre", "price": "Prix", "rating": "Évaluation", "inStock": "En stock uniquement", "clearAll": "Tout effacer", "apply": "Appliquer", "close": "Fermer" },
+    "sort": { "label": "Trier par", "featured": "En vedette", "newest": "Nouveauté", "priceAsc": "Prix — croissant", "priceDesc": "Prix — décroissant", "rating": "Mieux notés", "bestseller": "Meilleures ventes" },
+    "empty": { "title": "Rien ne correspond — encore.", "body": "Ajustez vos filtres ou laissez-nous vous suggérer quelques pièces.", "reset": "Effacer les filtres" },
+    "view": { "grid": "Vue grille", "list": "Vue liste" }
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "addToWishlist": "Ajouter aux favoris",
+    "removeFromWishlist": "Retirer des favoris",
+    "quantity": "Quantité",
+    "size": "Taille",
+    "material": "Matériau",
+    "stone": "Pierre",
+    "sku": "Réf.",
+    "inStock": "En stock — expédition sous 2 jours",
+    "lowStock": "Stock limité — {count} restantes",
+    "madeToOrder": "Fabriquée à la commande — 3 semaines",
+    "outOfStock": "Temporairement indisponible",
+    "sale": "Soldé",
+    "new": "Nouveau",
+    "bestseller": "Bestseller",
+    "limited": "Limité",
+    "handcrafted": "Fait main",
+    "tabs": { "description": "Description", "materialsAndCare": "Matériaux & Soin", "shippingAndReturns": "Livraison & Retours" },
+    "related": "Pièces à porter ensemble",
+    "recentlyViewed": "Vu récemment",
+    "rating": "{rating} sur 5 ({count} avis)",
+    "breadcrumb": { "home": "Accueil", "shop": "Boutique" },
+    "added": "Ajouté à votre panier",
+    "undo": "Annuler",
+    "viewCart": "Voir le panier"
+  },
+  "cart": {
+    "title": "Votre panier",
+    "itemCount": "{count, plural, =0 {Vide} one {1 pièce} other {# pièces}}",
+    "empty": { "title": "Votre panier est vide.", "body": "Commencez par une seule pièce — laissez-la trouver sa place.", "cta": "Voir les bijoux" },
+    "remove": "Retirer",
+    "moveToWishlist": "Garder pour plus tard",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "shippingFree": "Offerte",
+    "shippingEstimate": "Estimée à la caisse",
+    "tax": "Taxes (est.)",
+    "total": "Total",
+    "promo": { "label": "Code promo", "placeholder": "Entrer le code", "apply": "Appliquer", "applied": "Code appliqué — {percent}% de remise", "invalid": "Code non reconnu." },
+    "checkout": "Passer à la caisse",
+    "continue": "Continuer mes achats",
+    "viewFull": "Voir le panier complet",
+    "drawer": { "title": "Votre panier ({count})", "close": "Fermer le panier" }
+  },
+  "checkout": {
+    "title": "Commande",
+    "demoBanner": "Boutique de démonstration — aucun paiement réel n'est traité.",
+    "steps": { "address": "Adresse", "shipping": "Livraison", "payment": "Paiement", "review": "Revue" },
+    "address": { "title": "Où l'envoyer ?", "fullName": "Nom complet", "email": "Email", "phone": "Téléphone", "country": "Pays", "line1": "Adresse ligne 1", "line2": "Adresse ligne 2 (optionnel)", "city": "Ville", "region": "Région", "postalCode": "Code postal", "continue": "Continuer vers livraison" },
+    "shipping": { "title": "Mode de livraison", "options": { "standard": { "label": "Livraison standard", "eta": "5–7 jours ouvrés", "price": "Offerte" }, "express": { "label": "Livraison express", "eta": "2–3 jours ouvrés", "price": "25 $" }, "signature": { "label": "Livraison signée", "eta": "1–2 jours, signature requise", "price": "45 $" } }, "continue": "Continuer vers paiement" },
+    "payment": { "title": "Détails de paiement", "cardNumber": "Numéro de carte", "expiry": "Expiration (MM/AA)", "cvc": "CVC", "nameOnCard": "Nom sur la carte", "continue": "Revoir la commande" },
+    "review": { "title": "Revue de votre commande", "editAddress": "Modifier l'adresse", "editShipping": "Modifier livraison", "editPayment": "Modifier paiement", "place": "Confirmer la commande" },
+    "success": { "title": "Merci — votre commande est confirmée.", "body": "Nous avons envoyé une confirmation à {email}. Votre numéro de commande est {orderNumber}.", "continue": "Continuer mes achats", "account": "Créer un compte pour suivre cette commande" }
+  },
+  "wishlist": {
+    "title": "Favoris",
+    "empty": { "title": "Aucune pièce enregistrée.", "body": "Appuyez sur le cœur pour enregistrer une pièce.", "cta": "Voir les bijoux" },
+    "moveToCart": "Ajouter au panier",
+    "remove": "Retirer"
+  },
+  "account": {
+    "title": "Votre compte",
+    "greeting": "Bon retour, {firstName}.",
+    "sidebar": { "profile": "Profil", "orders": "Commandes", "addresses": "Adresses", "wishlist": "Favoris", "settings": "Paramètres", "signOut": "Déconnexion" },
+    "profile": { "title": "Profil", "firstName": "Prénom", "lastName": "Nom", "email": "Email", "phone": "Téléphone", "save": "Enregistrer", "saved": "Enregistré" },
+    "orders": { "title": "Commandes", "empty": "Aucune commande.", "viewOrder": "Voir la commande", "orderNumber": "Commande {number}", "placed": "Passée le {date}", "total": "Total {amount}" },
+    "addresses": { "title": "Adresses", "add": "Ajouter une adresse", "default": "Par défaut", "makeDefault": "Définir par défaut", "edit": "Modifier", "delete": "Supprimer" },
+    "settings": { "title": "Paramètres", "currency": "Devise", "language": "Langue", "newsletter": "Abonnement newsletter", "delete": "Supprimer le compte", "confirmDelete": "Êtes-vous sûr ? Cela efface vos données de démo." }
+  },
+  "auth": {
+    "signIn": { "title": "Bon retour.", "body": "Connectez-vous pour voir commandes, adresses et favoris.", "email": "Email", "password": "Mot de passe", "remember": "Se souvenir de moi", "forgot": "Mot de passe oublié ?", "submit": "Se connecter", "orContinue": "ou continuer avec", "google": "Google", "apple": "Apple", "comingSoon": "Connexion sociale à venir", "noAccount": "Pas encore de compte ?", "signUp": "Créer un compte" },
+    "signUp": { "title": "Créer votre compte.", "body": "Enregistrez vos favoris, suivez vos commandes, retrouvez vos préférences partout.", "firstName": "Prénom", "lastName": "Nom", "email": "Email", "password": "Mot de passe", "passwordHint": "Au moins 8 caractères, 1 chiffre, 1 majuscule.", "submit": "Créer le compte", "haveAccount": "Déjà un compte ?", "signIn": "Se connecter" },
+    "forgot": { "title": "Réinitialiser votre mot de passe.", "body": "Entrez l'email de votre compte. Nous enverrons les instructions.", "email": "Email", "submit": "Envoyer le lien", "success": "Si un compte existe, nous avons envoyé les instructions.", "back": "Retour à la connexion" },
+    "demoNotice": "Boutique de démonstration — authentification simulée. Aucun identifiant n'est stocké ni transmis."
+  },
+  "about": {
+    "eyebrow": "Notre histoire",
+    "title": "Un petit établi, une longue conversation.",
+    "body": "RadEl a commencé sur un établi, à Kigali, en 2022. Une personne, un chalumeau, et la conviction que les bijoux fins devaient être assez discrets pour se porter au quotidien.",
+    "founderTitle": "Fondateur — Wilson Nshizirungu",
+    "video": "Voir l'atelier",
+    "values": { "eyebrow": "Notre méthode", "items": { "materials": { "title": "Métaux recyclés", "body": "Chaque pièce est coulée en or 18 et 14 carats recyclé, tracé à une raffinerie certifiée à Anvers." }, "stones": { "title": "Pierres traçables", "body": "Sans conflits ou cultivées en laboratoire, auprès de partenaires qui nous accompagnent depuis le début." }, "craft": { "title": "Petites séries", "body": "Aucune série ne dépasse quarante pièces. La plupart sont fabriquées à la commande, par les deux mêmes mains." }, "care": { "title": "Soin à vie", "body": "Redimensionnement, nettoyage et resserrage gratuits à notre atelier de Kigali — pour toujours." } } }
+  },
+  "contact": {
+    "eyebrow": "Nous écrire",
+    "title": "Questions, commandes spéciales ou simple conversation.",
+    "body": "Nous répondons à chaque message sous un jour ouvré.",
+    "form": { "name": "Votre nom", "email": "Votre email", "subject": "Sujet", "subjects": { "general": "Question générale", "order": "Suivi de commande", "commission": "Commande sur mesure", "press": "Presse & partenariats" }, "message": "Votre message", "submit": "Envoyer", "success": "Message reçu — nous répondons sous un jour ouvré." },
+    "info": { "title": "Atelier", "address": "KG 9 Avenue, Kigali, Rwanda", "hours": "Lun–Ven, 10:00 – 18:00 CAT", "phone": "+250 791 847 408", "email": "hello@rad-el.com", "instagram": "@nshizirungu.w" }
+  },
+  "blog": { "title": "Le Journal", "body": "Lettres sur le soin, le savoir-faire et les choix discrets qui rendent un bijou digne d'être porté.", "featured": "En vedette", "allCategories": "Tout", "readingTime": "{minutes} min de lecture", "readMore": "Lire la suite", "share": "Partager", "copyLink": "Copier le lien", "linkCopied": "Lien copié", "related": "Plus dans le Journal" },
+  "faqs": { "eyebrow": "Questions fréquentes", "title": "Tout ce que vous voulez savoir.", "body": "Si votre question n'y est pas, écrivez-nous — réponse sous un jour ouvré.", "categories": { "orders": "Commandes", "shipping": "Livraison", "returns": "Retours", "materials": "Matériaux", "sizing": "Taille", "gifts": "Cadeaux" } },
+  "track": { "title": "Suivre votre commande", "body": "Entrez le numéro de commande et l'email utilisé à la caisse.", "orderNumber": "Numéro de commande", "email": "Email", "submit": "Suivre", "notFound": "Commande introuvable. Vérifiez le numéro et l'email." },
+  "legal": { "disclaimer": "Ce texte est illustratif et n'a pas été revu par un juriste.", "privacy": { "title": "Confidentialité" }, "terms": { "title": "Conditions" }, "shipping": { "title": "Livraison" }, "returns": { "title": "Retours" } },
+  "search": { "title": "Rechercher", "placeholder": "Bagues, perles, pendentifs…", "recent": "Recherches récentes", "popular": "Populaires", "empty": "Rien ne correspond à « {query} ». Essayez un terme plus large.", "resultCount": "{count, plural, =0 {Aucun résultat} one {1 résultat} other {# résultats}}", "viewAll": "Voir tous les résultats →" },
+  "footer": { "tagline": "Bijoux fins, en petites séries, à Kigali.", "shop": "Boutique", "company": "Entreprise", "support": "Aide", "legal": "Mentions", "newsletter": { "title": "Lettres", "body": "Deux fois par mois. Jamais plus.", "placeholder": "vous@email.com", "submit": "S'abonner" }, "copyright": "© {year} RadEl. Fabriqué avec soin à Kigali.", "currency": "Devise", "language": "Langue" },
+  "toast": { "addedToCart": "Ajouté à votre panier", "addedToWishlist": "Enregistré dans les favoris", "removedFromWishlist": "Retiré des favoris", "linkCopied": "Lien copié", "subscribed": "Abonnement confirmé — merci.", "genericError": "Une erreur est survenue. Veuillez réessayer." },
+  "errors": { "notFound": { "title": "Une pièce manquante.", "body": "La page demandée n'existe pas — ou a été déplacée. Trouvons le chemin du retour.", "home": "Accueil", "shop": "Voir les bijoux", "contact": "Nous écrire" }, "generic": { "title": "Une erreur est survenue.", "body": "Veuillez réessayer.", "retry": "Réessayer" } },
+  "common": { "close": "Fermer", "open": "Ouvrir", "loading": "Chargement…", "required": "Requis", "learnMore": "En savoir plus" }
+}
